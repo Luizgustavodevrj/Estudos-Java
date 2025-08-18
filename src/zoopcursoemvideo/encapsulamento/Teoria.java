@@ -3,6 +3,8 @@ package zoopcursoemvideo.encapsulamento;
 // Aula 6 - Encapsulamento
 
 public class Teoria {
+    public static class App {
+    }
 }
 
 /*
