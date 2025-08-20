@@ -1,4 +1,4 @@
-package zoopcursoemvideo.relacionamento.funcionalidades;
+package zoopcursoemvideo.agregacao.funcionalidades;
 
 public class Lutador {
     private String nome;

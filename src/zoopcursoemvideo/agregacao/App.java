@@ -1,5 +1,6 @@
-package zoopcursoemvideo.relacionamento;
+package zoopcursoemvideo.agregacao;
 
+import zoopcursoemvideo.agregacao.funcionalidades.Luta;
 import zoopcursoemvideo.agregacao.funcionalidades.Lutador;
 
 public class App {
@@ -13,9 +14,12 @@ public class App {
         l[4] = new Lutador("UFOCobol", "Brasil", 37, 1.70f, 119.3f, 5, 4, 3);
         l[5] = new Lutador("Nerdaart", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
 
+        Luta luta = new Luta(l[0], l[1], 1, false);
+        luta.marcarLuta(l[0], l[1]);
 
-        l[2].status();
-
+        luta.lutar();
+        l[0].status();
+        l[1].status();
 
     }
 }
